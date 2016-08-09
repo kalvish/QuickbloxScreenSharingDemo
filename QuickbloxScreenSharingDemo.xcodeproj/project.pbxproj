@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000F9924BA000E02A82C8539 /* libPods-QuickbloxScreenSharingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9CA91937F2FA3AD5573BD6 /* libPods-QuickbloxScreenSharingDemo.a */; };
+		907142C81D59AAE900615273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 907142C71D59AAE900615273 /* main.m */; };
+		907142CB1D59AAE900615273 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 907142CA1D59AAE900615273 /* AppDelegate.m */; };
+		907142CE1D59AAE900615273 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907142CD1D59AAE900615273 /* ViewController.m */; };
+		907142D11D59AAE900615273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907142CF1D59AAE900615273 /* Main.storyboard */; };
+		907142D31D59AAE900615273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907142D21D59AAE900615273 /* Assets.xcassets */; };
+		907142D61D59AAE900615273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907142D41D59AAE900615273 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B9CA91937F2FA3AD5573BD6 /* libPods-QuickbloxScreenSharingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickbloxScreenSharingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14EE66ECA8F1E5EB4FA4246B /* Pods-QuickbloxScreenSharingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickbloxScreenSharingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickbloxScreenSharingDemo/Pods-QuickbloxScreenSharingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		907142C31D59AAE800615273 /* QuickbloxScreenSharingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickbloxScreenSharingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		907142C71D59AAE900615273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		907142C91D59AAE900615273 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		907142CA1D59AAE900615273 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		907142CC1D59AAE900615273 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		907142CD1D59AAE900615273 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		907142D01D59AAE900615273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		907142D21D59AAE900615273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		907142D51D59AAE900615273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		907142D71D59AAE900615273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907142DE1D59DA7100615273 /* QuickbloxScreenSharingDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickbloxScreenSharingDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AE699AC94908FBA8E6F5C1B0 /* Pods-QuickbloxScreenSharingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickbloxScreenSharingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickbloxScreenSharingDemo/Pods-QuickbloxScreenSharingDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		907142C01D59AAE800615273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F9924BA000E02A82C8539 /* libPods-QuickbloxScreenSharingDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20991F35E297B00806B441D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14EE66ECA8F1E5EB4FA4246B /* Pods-QuickbloxScreenSharingDemo.debug.xcconfig */,
+				AE699AC94908FBA8E6F5C1B0 /* Pods-QuickbloxScreenSharingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		907142BA1D59AAE800615273 = {
+			isa = PBXGroup;
+			children = (
+				907142DE1D59DA7100615273 /* QuickbloxScreenSharingDemo-Prefix.pch */,
+				907142C51D59AAE900615273 /* QuickbloxScreenSharingDemo */,
+				907142C41D59AAE800615273 /* Products */,
+				20991F35E297B00806B441D3 /* Pods */,
+				E5AD2885B3D6196F3DA6D885 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		907142C41D59AAE800615273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				907142C31D59AAE800615273 /* QuickbloxScreenSharingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		907142C51D59AAE900615273 /* QuickbloxScreenSharingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				907142C91D59AAE900615273 /* AppDelegate.h */,
+				907142CA1D59AAE900615273 /* AppDelegate.m */,
+				907142CC1D59AAE900615273 /* ViewController.h */,
+				907142CD1D59AAE900615273 /* ViewController.m */,
+				907142CF1D59AAE900615273 /* Main.storyboard */,
+				907142D21D59AAE900615273 /* Assets.xcassets */,
+				907142D41D59AAE900615273 /* LaunchScreen.storyboard */,
+				907142D71D59AAE900615273 /* Info.plist */,
+				907142C61D59AAE900615273 /* Supporting Files */,
+			);
+			path = QuickbloxScreenSharingDemo;
+			sourceTree = "<group>";
+		};
+		907142C61D59AAE900615273 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				907142C71D59AAE900615273 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5AD2885B3D6196F3DA6D885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B9CA91937F2FA3AD5573BD6 /* libPods-QuickbloxScreenSharingDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		907142C21D59AAE800615273 /* QuickbloxScreenSharingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907142DA1D59AAE900615273 /* Build configuration list for PBXNativeTarget "QuickbloxScreenSharingDemo" */;
+			buildPhases = (
+				F1EA190ABAFC5AF9C8256294 /* [CP] Check Pods Manifest.lock */,
+				907142BF1D59AAE800615273 /* Sources */,
+				907142C01D59AAE800615273 /* Frameworks */,
+				907142C11D59AAE800615273 /* Resources */,
+				F764936EDBAFFCFA01881716 /* [CP] Embed Pods Frameworks */,
+				654F7C1357A2C4D519B81E03 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickbloxScreenSharingDemo;
+			productName = QuickbloxScreenSharingDemo;
+			productReference = 907142C31D59AAE800615273 /* QuickbloxScreenSharingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		907142BB1D59AAE800615273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BoardPAC;
+				TargetAttributes = {
+					907142C21D59AAE800615273 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 907142BE1D59AAE800615273 /* Build configuration list for PBXProject "QuickbloxScreenSharingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 907142BA1D59AAE800615273;
+			productRefGroup = 907142C41D59AAE800615273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				907142C21D59AAE800615273 /* QuickbloxScreenSharingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		907142C11D59AAE800615273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907142D61D59AAE900615273 /* LaunchScreen.storyboard in Resources */,
+				907142D31D59AAE900615273 /* Assets.xcassets in Resources */,
+				907142D11D59AAE900615273 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		654F7C1357A2C4D519B81E03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickbloxScreenSharingDemo/Pods-QuickbloxScreenSharingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1EA190ABAFC5AF9C8256294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F764936EDBAFFCFA01881716 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickbloxScreenSharingDemo/Pods-QuickbloxScreenSharingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		907142BF1D59AAE800615273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907142CE1D59AAE900615273 /* ViewController.m in Sources */,
+				907142CB1D59AAE900615273 /* AppDelegate.m in Sources */,
+				907142C81D59AAE900615273 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		907142CF1D59AAE900615273 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907142D01D59AAE900615273 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		907142D41D59AAE900615273 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907142D51D59AAE900615273 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		907142D81D59AAE900615273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		907142D91D59AAE900615273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		907142DB1D59AAE900615273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14EE66ECA8F1E5EB4FA4246B /* Pods-QuickbloxScreenSharingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QuickbloxScreenSharingDemo-Prefix.pch";
+				INFOPLIST_FILE = QuickbloxScreenSharingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ironone.QuickbloxScreenSharingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		907142DC1D59AAE900615273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE699AC94908FBA8E6F5C1B0 /* Pods-QuickbloxScreenSharingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QuickbloxScreenSharingDemo-Prefix.pch";
+				INFOPLIST_FILE = QuickbloxScreenSharingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ironone.QuickbloxScreenSharingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		907142BE1D59AAE800615273 /* Build configuration list for PBXProject "QuickbloxScreenSharingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907142D81D59AAE900615273 /* Debug */,
+				907142D91D59AAE900615273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907142DA1D59AAE900615273 /* Build configuration list for PBXNativeTarget "QuickbloxScreenSharingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907142DB1D59AAE900615273 /* Debug */,
+				907142DC1D59AAE900615273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 907142BB1D59AAE800615273 /* Project object */;
+}

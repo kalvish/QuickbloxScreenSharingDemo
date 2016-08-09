@@ -1,0 +1,23 @@
+//http://stackoverflow.com/questions/25840720/xcode-6-pch-file-not-found
+
+//
+//  QuickbloxScreenSharingDemo-Prefix.pch
+//  QuickbloxScreenSharingDemo
+//
+//  Created by ganuka on 8/9/16.
+//  Copyright © 2016 BoardPAC. All rights reserved.
+//
+
+#ifndef QuickbloxScreenSharingDemo_Prefix_pch
+#define QuickbloxScreenSharingDemo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <Quickblox/Quickblox.h>
+#import <QuickbloxWebRTC/QuickbloxWebRTC.h>
+
+#endif /* QuickbloxScreenSharingDemo_Prefix_pch */
